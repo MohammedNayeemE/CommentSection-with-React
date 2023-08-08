@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 238, 251);
+    border: none;
+    border-radius: 17px;
+    border-left: 2px solid grey;
+   /* animation: spin 1s ease infinite;*/
+
+}
+.image img{
+    width: 400px;
+    margin: 10px;
+}
+
