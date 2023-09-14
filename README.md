@@ -4,7 +4,7 @@ This project is a simple web application that allows users to add and view comme
 
 ## Features
 
-- Add comments with a name and message.
+- Add comments with a userID and message.
 - View existing comments from the database.
 - Frontend built using React.
 - Backend powered by Node.js and MongoDB.
@@ -58,6 +58,7 @@ npm start
 ## Contributing
 
 Contributions are welcome! If you find a bug or have an enhancement in mind, feel free to open an issue or submit a pull request.
+
 
 
 
