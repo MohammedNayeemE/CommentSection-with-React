@@ -60,49 +60,7 @@ app.post('/' ,  (req , res) =>{
 })
 
 
- /*       const list=  [];
-db.collection('comments').find().project({_id:0})
-.forEach(element => {
-    list.push(element);
-})
-.then(()=>{
-    console.log(list);
-})
-.catch((err)=>{
-    console.log(err);
-})
-app.get('/' , (req , res) =>{
-        const list =[];
-        db.collection('comments').find().project({_id:0}).
-        forEach(element => {
-            list.push(element);
-        })
-        .then(()=>{
-            res.status(200).json(list);
-        })
-        .catch((err) =>{
-            res.status(500).json({err:"ERrOR"});
-        })
-        
-        
-      })
 
-
-
-
-
-       try{
-        const db = getdb();
-        const comments =  await db.collection('comments').findOne();
-      //  console.log(comments);
-       const commentsArray = await comments.toArray();
-       console.log(commentsArray);
-        res.status(200).json(commentsArray);
-    }
-    catch(err){
-        res.status(500).json({err : "Cant fetch"})
-    }
-*/
 
 
 
