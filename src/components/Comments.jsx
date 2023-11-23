@@ -1,5 +1,5 @@
 import React from "react";
-
+import './components.css';
 import AddComment from "./Addcomment"
 import Reply from "./ReplyAddcomment"
 import { useState } from "react"
