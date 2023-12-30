@@ -11,17 +11,13 @@ app.use(cors());
 
 
 
-
+// function to run the server
 
 connectToDb((err) =>{
     if(!err){
         app.listen(5000, ()=>{
             console.log("working .....");
         })
-
-        
-
-      
     }
 
 
