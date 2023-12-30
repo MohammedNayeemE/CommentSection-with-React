@@ -1,6 +1,7 @@
 import { useState } from "react";
+import './components.css';
 function AddComment({onaddComment}){
-  
+
     const [name , setName] = useState("");
     const [comment , setcomment] = useState("");
   

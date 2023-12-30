@@ -22,5 +22,21 @@
     width: 400px;
     margin: 10px;
   }
-  
+  input{
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 3px;
+    
+  }
+  .btn{
+    background-color: aquamarine;
+    text-decoration: solid;
+    border: none;
+    width: 200px;
+    padding: 5px;
+    
+  }
+  .btn:hover{
+    cursor: pointer;
+  }
   
